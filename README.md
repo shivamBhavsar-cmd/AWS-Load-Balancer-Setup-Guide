@@ -16,7 +16,8 @@ This guide provides step-by-step instructions for setting up an AWS load balance
    - Select the AMI: `Amazon Linux (free tier)`
    - Instance type: `t2.micro (free tier)`
    - Create a new key pair
-    (Images/Screenshot 2024-07-08 201622.png)
+     ![Screenshot 2024-07-08 201622](https://github.com/shivamBhavsar-cmd/AWS-Load-Balancer-Setup-Guide/assets/63534308/7cf22659-2d79-4b90-85e1-98ad81176c0f)
+
 
 2. **Configure Security Group**
    - Security group name: `wavecafe-web`
