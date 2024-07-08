@@ -21,7 +21,7 @@ This guide provides step-by-step instructions for setting up an AWS load balance
 2. **Configure Security Group**
    - Security group name: `wavecafe-web`
    - Edit Inbound traffic rules as needed
-   ![Security Group Configuration](images/security-group-configuration.png)
+   ![Security Group Configuration](Images/Screenshot 2024-07-08 201622.png)
 
 3. **Advanced Details**
    - Paste the following script in the User Data section:
