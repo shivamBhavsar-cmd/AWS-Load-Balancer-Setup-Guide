@@ -1,4 +1,4 @@
-![Screenshot 2024-07-08 204220](https://github.com/shivamBhavsar-cmd/AWS-Load-Balancer-Setup-Guide/assets/63534308/6f6f215c-5962-4bbd-9d80-22ae04559eba)![Screenshot 2024-07-08 204736](https://github.com/shivamBhavsar-cmd/AWS-Load-Balancer-Setup-Guide/assets/63534308/1fd667b9-2224-4952-8e08-6e345da860d9)# AWS-Load-Balancer-Setup-Guide
+# AWS-Load-Balancer-Setup-Guide
 AWS Load Balancer Setup Guide
 # AWS Load Balancer Setup Guide
 
@@ -8,7 +8,7 @@ This guide provides step-by-step instructions for setting up an AWS load balance
 
 - AWS account
 - Basic knowledge of AWS EC2, AMI, and Load Balancers
-
+![Screenshot 2024-07-08 204220](https://github.com/shivamBhavsar-cmd/AWS-Load-Balancer-Setup-Guide/assets/63534308/6f6f215c-5962-4bbd-9d80-22ae04559eba)![Screenshot 2024-07-08 204736](https://github.com/shivamBhavsar-cmd/AWS-Load-Balancer-Setup-Guide/assets/63534308/1fd667b9-2224-4952-8e08-6e345da860d9)
 ## Step 1: Create an EC2 Instance
 
 1. **Launch Instance**
