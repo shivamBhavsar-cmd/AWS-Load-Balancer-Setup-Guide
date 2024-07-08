@@ -16,10 +16,12 @@ This guide provides step-by-step instructions for setting up an AWS load balance
    - Select the AMI: `Amazon Linux (free tier)`
    - Instance type: `t2.micro (free tier)`
    - Create a new key pair
+   ![EC2 Instance Setup](Images/Screenshot 2024-07-08 201622.png)
 
 2. **Configure Security Group**
    - Security group name: `wavecafe-web`
    - Edit Inbound traffic rules as needed
+   ![Security Group Configuration](images/security-group-configuration.png)
 
 3. **Advanced Details**
    - Paste the following script in the User Data section:
@@ -71,6 +73,7 @@ This guide provides step-by-step instructions for setting up an AWS load balance
 4. **Launch the Instance**
    - After launching, wait for the instance to initialize.
    - Access the website using the instance's Public IPv4 address.
+   ![Website on EC2](images/website-on-ec2.png)
 
 ## Step 2: Create an AMI from the Instance
 
@@ -80,10 +83,12 @@ This guide provides step-by-step instructions for setting up an AWS load balance
    - Provide an Image name and modify instance volume if needed
    - Click on `Create image`
    - Check the created AMI in the AMI section
+   ![Create AMI](images/create-ami.png)
 
 2. **Launch an Instance from the AMI**
    - Click on `Launch instance from AMI`
    - Follow the steps to launch a new instance
+   ![Launch from AMI](images/launch-from-ami.png)
 
 ## Step 3: Create a Launch Template
 
@@ -91,28 +96,34 @@ This guide provides step-by-step instructions for setting up an AWS load balance
    - Select the AMI
    - Choose the instance type and key pair
    - Create the template
+   ![Launch Template](images/launch-template.png)
 
 ## Step 4: Create a Load Balancer
 
 1. **Create Target Group**
    - Create a target group and select the instances
+   ![Create Target Group](images/create-target-group.png)
 
 2. **Create Load Balancer**
    - Select `Application Load Balancer` and create
    - Configure a new security group
    - Add the instances to the target group
+   ![Create Load Balancer](images/create-load-balancer.png)
 
 3. **Configure Security Group**
    - Edit the inbound rules of the security group
+   ![Configure Security Group](images/configure-security-group.png)
 
 ## Step 5: Test the Load Balancer
 
 1. **Check Targets**
    - Go to the target group section and ensure the targets are healthy
+   ![Check Targets](images/check-targets.png)
 
 2. **Access the Load Balancer**
    - Copy the DNS name of the load balancer and paste it into a browser
    - Verify that the website is working
+   ![Load Balancer Website](images/load-balancer-website.png)
 
 ## Conclusion
 
@@ -121,3 +132,4 @@ By following these steps, you have successfully set up an EC2 instance, created 
 ## Author
 
 - [Your Name]
+
