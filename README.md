@@ -16,7 +16,7 @@ This guide provides step-by-step instructions for setting up an AWS load balance
    - Select the AMI: `Amazon Linux (free tier)`
    - Instance type: `t2.micro (free tier)`
    - Create a new key pair
-   ![EC2 Instance Setup](Images/Screenshot 2024-07-08 201622.png)
+    (Images/Screenshot 2024-07-08 201622.png)
 
 2. **Configure Security Group**
    - Security group name: `wavecafe-web`
