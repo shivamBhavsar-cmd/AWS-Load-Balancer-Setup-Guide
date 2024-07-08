@@ -73,7 +73,7 @@ This guide provides step-by-step instructions for setting up an AWS load balance
 4. **Launch the Instance**
    - After launching, wait for the instance to initialize.
    - Access the website using the instance's Public IPv4 address.
-   ![Website on EC2](images/website-on-ec2.png)
+   ![Website on EC2](Images/Screenshot 2024-07-08 201622.png)
 
 ## Step 2: Create an AMI from the Instance
 
